@@ -13,16 +13,16 @@ Authentication
 ``Open Bank Project`` offers multiple authentication methods:
 
 - OAuth 1.0a
-- JSON Web Tokens (JWT) 
+- Direct Login
 
-JSON Web Tokens (JWT)
+Direct Login
 ---------------------
 
 First you must 
 `create an account <https://api.openbankproject.com/user_mgt/sign_up>`_ on Open
 Bank Project. Then, `register a new application <https://api.openbankproject.com/consumer-registration>`_
 which gives you a `consumer-key`. You use your consumer key when generating a 
-JWT login token. 
+Direct Login token. 
 
 
 .. http:example:: curl wget httpie python-requests
