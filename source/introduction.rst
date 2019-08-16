@@ -1,4 +1,6 @@
-Introduction
+.. _introduction:
+
+What is the Open Bank Project
 ============
 
 Open Bank Project is an open source API for banks that provides a RESTful interface for developers to build customer facing applications without needing to code for each bank or account type differently.
