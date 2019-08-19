@@ -12,7 +12,7 @@ The Kafka connector provides the following advantages when connecting OBP to a c
 
 - Connector Code (south of the Kafka queue) is not restricted to a JVM language (Scala, Java, Clojure etc.) You can use any language that speaks Kafka e.g. Python, Go, C# etc.
 
-.. code-block:: sh:
+.. code-block:: sh
 
        OBP
         |
