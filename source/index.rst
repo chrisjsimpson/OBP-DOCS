@@ -38,6 +38,7 @@ Contents
 
    introduction
    obp-components
+   tasks/tasks
    authentication
    adapters/adapters
 
