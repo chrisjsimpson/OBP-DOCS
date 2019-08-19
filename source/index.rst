@@ -31,13 +31,14 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
+   :glob:
+   :maxdepth: 3
    :titlesonly:
    :caption: Contents:
 
    introduction
    obp-components
    authentication
-   adapters
+   adapters/adapters
 
 * :ref:`genindex`

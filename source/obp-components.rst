@@ -1,7 +1,7 @@
 .. _obp-components:
 
 OBP Components
-============
+===============
 
 OBP API
 ---------
