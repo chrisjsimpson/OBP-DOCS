@@ -8,7 +8,7 @@ Prerequisites
 ------------------
 
 - :ref:`obp cli is installed<task-install-cli>`
-
+- :ref:`obp cli is initalised<task-initialise-obp-cli>`
 - Permissions
 
 You may not have the correct permissions to perform the imports you want. The API will return an error specifying the permissions you need if you try to import data you don't have permissions for.
@@ -57,3 +57,6 @@ Steps:
 2. Identify the correct CLI import command, for example for users import the command is: :code:`obp importusers users-import-template-v1.ods` press enter
 3. If you have the correct permissions, and the data is valid, your import will succeed
 
+If you don't have the correct permissions to create the object, then you may 
+be able to use the cli to add roles for yourself, or request a higher 
+privileged user grants them to you. See :code:`obp addrole --help`.
