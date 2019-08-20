@@ -1,6 +1,10 @@
 Open Bank Project Documentation
 ===================================================
 
+.. image:: _static/open-bank-project.png
+   :alt: Open Bank Project Logo
+   :width: 250px
+
 Open Bank Project (OBP) is an open source RESTful API platform for banks that supports Open Banking, XS2A and PSD2 through access to accounts, transactions, counterparties, payments, entitlements and metadata - plus a host of internal banking and management APIs.
 
 
@@ -37,6 +41,7 @@ Contents
    :caption: Contents:
 
    introduction
+   videos
    obp-components
    tasks/tasks
    authentication
