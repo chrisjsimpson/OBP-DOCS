@@ -14,6 +14,9 @@ Install obp cli
 
   pip3 install --user obp-python # Requires at least python 3
 
+
+.. _verify-cli-install:
+
 Verify installation
 ====================
 

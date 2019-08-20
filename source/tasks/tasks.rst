@@ -11,4 +11,5 @@ This section of the Open Bank Project documentation contains pages that show how
   :caption: Contents:
 
   install-cli
+  initialise-obp-cli
   cli-import
