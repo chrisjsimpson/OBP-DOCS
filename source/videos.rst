@@ -20,3 +20,4 @@ Contributing to obp cli developerment
 --------------------------------------
 
 - `Setting up your development environment <https://youtu.be/FBms-gWmGNA>`_
+- `Developing obp cli- how to contribue. Example adding command <https://youtu.be/k05bzoPqkJw>`_
