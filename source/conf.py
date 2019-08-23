@@ -33,6 +33,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinxcontrib.httpdomain',
     'sphinxcontrib.httpexample',
+    'sphinxcontrib.redoc',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -281,6 +282,23 @@ texinfo_documents = [
     (master_doc, 'OpenBankProjectGuide', 'Open Bank Project Guide Documentation',
      author, 'OpenBankProjectGuide', 'One line description of project.',
      'Miscellaneous'),
+]
+
+#sphinxcontrib.redoc settings:
+redoc = [
+    {
+        'name': 'Open Bank Project API',
+        'page': 'api',
+        'spec': '_static/swag.yaml',
+        'embed': True,
+        'opts': {
+             
+            'lazy-rendering': True,
+            'suppress-warnings': True, #TODO fix the warnings! 
+            'native-scrollbars': True, #improves performance, at cost of design
+            'expand-responses': ["200", "201"],
+        }
+    },
 ]
 
 # Documents to append as an appendix to all manuals.

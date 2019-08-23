@@ -43,6 +43,7 @@ Contents
    introduction
    videos
    obp-components
+   api
    tasks/tasks
    authentication
    adapters/adapters
