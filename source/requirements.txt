@@ -22,3 +22,4 @@ sphinxcontrib-httpexample==0.10.0
 sphinxcontrib-websupport==1.1.0
 typing==3.6.6
 urllib3~=1.24.1
+sphinxcontrib.redoc
